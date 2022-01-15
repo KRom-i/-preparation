@@ -1,4 +1,4 @@
-package carcode;
+package car;
 
 interface Moveable {
     void move();
