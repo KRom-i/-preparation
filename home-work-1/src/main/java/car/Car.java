@@ -1,7 +1,7 @@
 package car;
 
-abstract class Car {
-    public Engine engine;
+abstract class Car implements Moveable, Stopable{
+    private Engine engine;
     private String color;
     private String name;
 
